@@ -1,0 +1,323 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #ececee;
+    ;
+}
+
+.intro {
+    text-align: center;
+    color: white;
+
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    padding: 100px 100px;
+
+}
+
+.donate-now {
+    text-decoration: none;
+    background-image: linear-gradient(orange, rgb(239, 60, 29));
+    padding: 10px 40px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.money {
+    text-decoration: none;
+    background-image: linear-gradient(white, rgb(202, 195, 195));
+    padding: 20px 20px;
+    font-weight: 900;
+    border-radius: 5px;
+    color: rgb(62, 60, 60);
+
+}
+
+.extra-money {
+
+    text-decoration: none;
+    background-image: linear-gradient(white, rgb(202, 195, 195));
+    padding: 20px 20px;
+    font-weight: 900;
+    border-radius: 5px;
+
+    color: black;
+
+    border: 2px solid black;
+
+
+}
+
+.money-box {
+    align-content: center;
+
+
+    padding-left: 10px;
+    padding-top: 5%;
+
+    border-radius: 100px;
+    text-align: center;
+    box-align: center;
+
+
+}
+
+.donate-title {
+    font-size: 55px;
+}
+
+.donate-paragraph {
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+
+
+.input-amount {
+    margin-top: 40px;
+    margin-bottom: 25px;
+
+    border-radius: 5px;
+    font-size: 18px;
+    color: #000;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    background: #d5d5df;
+}
+
+
+.donate-now2 {
+    text-decoration: none;
+    background-image: linear-gradient(orange, rgb(239, 60, 29));
+    padding: 10px 40px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: white;
+    border-top: 100px;
+
+
+}
+
+.donate-plan {
+
+    align-content: center;
+    text-align: center;
+    box-align: center;
+    margin-top: 300px;
+    margin-bottom: 5px;
+}
+
+.plan {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+#plan-paragraph {
+
+
+    margin: 50px;
+    width: 40%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+
+
+}
+
+.plan-paragraph1 {
+    background-color: rgb(239, 232, 232);
+}
+
+.plan-paragraph2 {
+    background-color: rgb(213, 181, 186);
+}
+
+.plan-paragraph3 {
+    background-color: rgb(219, 219, 143);
+}
+
+.food {
+    background-image: url(icons/icon13.svg);
+    background-repeat: no-repeat;
+
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.shelter {
+    background-image: url(icons/shelter-svgrepo-com.svg);
+
+    background-repeat: no-repeat;
+    margin-top: 10px;
+
+}
+
+.education {
+    background-image: url(icons/icon4.svg);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.depend-on-donation {
+
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.form-box {
+    padding: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background: #ececee;
+    box-shadow: 10px 10px 15px #625e62, -10px -10px 15px #fff;
+}
+
+.form-box input {
+
+    font-size: 18px;
+    color: #000;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    background: #ececee;
+}
+
+.form-box button {
+    color: #fff;
+    padding: 15px 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background: tomato;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#login-form {
+    display: flex;
+    justify-content: center;
+}
+
+.login-form {
+    width: 350px;
+    top: 50%;
+    left: 50%;
+
+    align-items: center;
+    color: rgb(10, 9, 9);
+    align-content: center;
+
+    box-align: center;
+
+}
+
+.login-form h1 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+
+}
+
+.login-form p {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.login-form input {
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+.login-form button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+    background-color: white;
+}
+
+
+
+footer {
+
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: Open sans-serif;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-height: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.footer-bottom {
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
